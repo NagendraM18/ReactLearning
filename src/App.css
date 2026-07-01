@@ -1,0 +1,17 @@
+:root{
+  --text-color:rgb(204, 255, 0);
+  --background_color:rgb(215, 192, 255);
+
+}
+button{
+  height:80px;
+  width: 150px;
+  color:var(--text-color);
+  background-color: var(--background_color);
+  margin-top: 30px;
+}
+
+input{
+  margin-left: 30px;
+  
+}
