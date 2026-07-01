@@ -5,13 +5,10 @@
 import './App.css';
 import './Components/Student.jsx';
 import StudentCard from './Components/Student.jsx';
+import { TeacherCard } from './Components/Teacher.jsx';
 
 function App() {
-
-    
-
-    
-  
+     
       return(  
       <>
          <h1>COLLEGE MANAGEMNET SYSTEM</h1>
@@ -19,6 +16,8 @@ function App() {
           <StudentCard studentsNames="kiran" >
              <p>We are in exploring the child  insde the props</p>
           </StudentCard>
+
+          <TeacherCard Name="praveen" subject="Data Structure"/>
       </>
       );
 }
